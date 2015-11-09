@@ -60,12 +60,12 @@ else{
 		
 //		$pos = strpos($ip_array_split[1], "7890"); //position of 7890
 //		$bool_pos=is_bool($pos); //custom ports (!= 7890) not allowed.
-                $pos = strpos($ip_array_split[1], "28280"); //position of 28280
-                $bool_pos=is_bool($pos); //custom ports (!= 28280) not allowed.
+                $pos = strpos($ip_array_split[1], "30137"); //position of 30137
+                $bool_pos=is_bool($pos); //custom ports (!= 30137) not allowed.
 		
 		if (!$bool_pos) {
 //                        $ip_array_split = str_replace("7890", "", $ip_array_split[1]); //remove port
-			$ip_array_split = str_replace("28280", "", $ip_array_split[1]); //remove port
+			$ip_array_split = str_replace("30137", "", $ip_array_split[1]); //remove port
 			$ip_array_split = trim($ip_array_split); //remove spaces at the start
 			$ip_array_split = substr($ip_array_split,0,1); //get first charakter == the GOOD parameter in the dump file /
 			$good =  $ip_array_split;
