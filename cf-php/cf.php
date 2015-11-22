@@ -1,7 +1,7 @@
 <?php
 $domain ="somedomain.com";
 $name = "seedername"; //subdomain e.g. name.domain.com 
-$number_of_records = 15; //maximum n A records with $name... 10 recommended 
+$number_of_records = 25; //maximum n A records with $name... 10 recommended 
 $user = "cloudflareusername"; //user name
 $key = ".........."; //key for cloudflare api found in account settings
 $seed_dump = "......./dnsseed.dump"; //absolute path to dnsseed.dump in the seeder root directory 
